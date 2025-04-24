@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-import { Card } from '../Card/Card'
+import { Card } from '../../Components/Card/Card'
 
 const URL = "https://fakestoreapi.com/products"
 

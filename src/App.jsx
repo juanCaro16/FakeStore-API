@@ -1,4 +1,4 @@
-import { Card } from "./Layouts/Card/Card"
+import { Footer } from "./Layouts/Footer/Footer"
 import { Header } from "./Layouts/Header/Header"
 import { Main } from "./Layouts/Main/Main"
 
@@ -9,7 +9,7 @@ export const App = () => {
     <>
       <Header />
       <Main />
-      
+      <Footer />
     </>
   )
 }
