@@ -20,7 +20,7 @@ export const Main = () => {
 
   return (
     <>
-     <section className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-10">
+     <section className="w-[90vw] grid grid-cols-1 md:grid-cols-4 ml-12 gap-5 mt-10">
         {
           products.map(product => (
             <Card key={product.id} {...product} />
